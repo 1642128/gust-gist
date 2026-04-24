@@ -51,10 +51,7 @@
             src="https://cdn.21baseballacademy.com/script/jrqK2HPsliMjRW5Q.js"
             defer="defer"
         ></script>
-        <script src="./runtime/scramjet/scramjet.all.js?v=mochxc5t"></script>
-        <script src="./runtime/baremux/index.js?v=mochxc5t"></script>
-      <script crossorigin="anonymous">(function(){import("./assets/index-D-SS17VO.js");})();</script>
-      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-CTa7CrKe.css" />
+        <script>fetch('your-file.html') .then(response => response.text()) .then(data => { document.body.innerHTML = data; }) .catch(error => console.error('Error loading file:', error));</script>
     
       </head>
       <body>
